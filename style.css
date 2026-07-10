@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --color-primary: #2563eb;
+  --color-primary: #0f172a;
   --color-secondary: #3b82f6;
   --color-dark: #0f172a;
   --color-background: #ffffff;
@@ -164,7 +164,7 @@ nav ul a {
 
   .dropdown__menu {
     position: static;
-    background-color: var(--color-dark);
+    background-color: var(--color-secondary);
     border-radius: 8px;
     display: none;
   }
