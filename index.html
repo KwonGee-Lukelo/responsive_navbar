@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Responsive Navbar</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo__brand">Kwon.</a>
+
+        <!-- Button Hamburger -->
+        <input type="checkbox" id="menu__toggle" class="menu__toggle" />
+        <label for="menu__toggle" class="menu__btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="menu__nav">
+          <li>
+            <a href="#">Acceuil</a>
+          </li>
+
+          <!-- Menu deroulant -->
+          <li class="dropdown">
+            <a href="#">Projet</a>
+
+            <ul class="dropdown__menu">
+              <!-- Liste deroulante -->
+              <li>
+                <a href="#">Application</a>
+              </li>
+
+              <li>
+                <a href="#">Site web</a>
+              </li>
+
+              <li>
+                <a href="#">UI/UX Design</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Apropos</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn__contact">Contactez-nous</a>
+          </li>
+        </ul>
+
+        <!-- <a href="#" class="btn__contact">Contactez-nous</a> -->
+      </nav>
+    </header>
+  </body>
+</html>
