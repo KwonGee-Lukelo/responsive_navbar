@@ -89,3 +89,92 @@ nav ul a {
   background-color: var(--color-secondary);
   border-radius: 30px;
 }
+
+/* input checkbox */
+.menu__toggle {
+  display: none;
+}
+
+.menu__btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 28px;
+  height: 18px;
+}
+
+.menu__btn span {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3%;
+  transition: 0.4s;
+  display: none;
+}
+
+@media screen and (max-width: 661px) {
+  nav .logo__brand {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    font-size: 0.967rem;
+    font-weight: 500;
+  }
+
+  .menu__nav {
+    display: none;
+  }
+
+  .menu__toggle:checked ~ .menu__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .menu__btn,
+  .menu__btn span {
+    display: flex;
+  }
+
+  .menu__nav {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .menu__nav {
+    background-color: var(--color-primary);
+    width: 100%;
+    padding: 2em;
+  }
+
+  /* Animation Hamburger */
+  .menu__toggle:checked + .menu__btn span:nth-child(1) {
+    transform: rotate(45deg) translateY(11px);
+  }
+  .menu__toggle:checked + .menu__btn span:nth-child(2) {
+    transform: rotate(-45deg) translateY(-10px);
+  }
+  .menu__toggle:checked + .menu__btn span:nth-child(3) {
+    display: none;
+  }
+
+  .dropdown__menu {
+    position: static;
+    background-color: var(--color-dark);
+    border-radius: 8px;
+    display: none;
+  }
+
+  .dropdown:hover .dropdown__menu {
+    opacity: 1;
+    display: flex;
+    transform: translateY(0);
+    white-space: nowrap;
+    padding: 2em 0 1em 0;
+    cursor: pointer;
+  }
+}
