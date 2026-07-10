@@ -10,7 +10,7 @@ Ce projet met en pratique la création d'un composant de navigation réutilisabl
 
 ## Version Desktop
 
-![Desktop Preview](.images/preview/desktop.png)
+![Desktop Preview](./images/preview/desktop.png)
 
 ---
 
