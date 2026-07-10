@@ -6,6 +6,22 @@ Ce projet met en pratique la création d'un composant de navigation réutilisabl
 
 ---
 
+# Aperçu
+
+## Version Desktop
+
+![Desktop Preview](.images/preview/desktop.png)
+
+---
+
+## Version Mobile
+
+![Mobile Preview](.images/preview/mobile1.png)
+![Mobile Preview](.images/preview/mobile2.png)
+![Mobile Preview](.images/preview/mobile3.png)
+
+---
+
 # Présentation
 
 La navigation est l'un des composants les plus importants d'un site web. Elle permet aux utilisateurs d'accéder rapidement aux différentes sections tout en offrant une expérience fluide sur ordinateur, tablette et mobile.
