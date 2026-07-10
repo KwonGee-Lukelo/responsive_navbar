@@ -16,9 +16,9 @@ Ce projet met en pratique la création d'un composant de navigation réutilisabl
 
 ## Version Mobile
 
-![Mobile Preview](.images/preview/mobile1.png)
-![Mobile Preview](.images/preview/mobile2.png)
-![Mobile Preview](.images/preview/mobile3.png)
+![Mobile Preview](./images/preview/mobile1.png)
+![Mobile Preview](./images/preview/mobile2.png)
+![Mobile Preview](./images/preview/mobile3.png)
 
 ---
 
